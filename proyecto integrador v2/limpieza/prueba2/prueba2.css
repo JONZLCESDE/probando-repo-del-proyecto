@@ -1,0 +1,129 @@
+body {
+    background-image: url(logo\ definitivo.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(16, 61, 222, 0.6); 
+    padding: 1em;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    backdrop-filter: blur(5px); 
+    border: 2px solid white; 
+    border-radius: 10px; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: rgba(242, 242, 242, 0.8); 
+    padding: 3em;
+    text-align: center;
+    margin-top: 80px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    color: #333;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+button {
+    background-color: #065aba;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #0e22d5;
+}
+
+/* Estilos del modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgba(10, 58, 187, 0.8); 
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border: 2px solid white; 
+    border-radius: 10px; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}

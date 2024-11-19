@@ -1,0 +1,94 @@
+
+header {
+    background-color: #2c3e50; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+#contacto {
+    padding: 50px 0;
+    background-color: #f7f7f7; 
+}
+
+#contacto form {
+    width: 50%; 
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #294fe9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50; 
+    font-size: 1.1em;
+}
+
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #f0f0f0; 
+}
+
+#contacto input:focus, #contacto textarea:focus {
+    border-color: #3498db; 
+    outline: none;
+    background-color: #fff; 
+}
+
+#contacto button {
+    background-color: #3498db; 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#contacto button:hover {
+    background-color: #2980b9; 
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #f39c12; 
+}

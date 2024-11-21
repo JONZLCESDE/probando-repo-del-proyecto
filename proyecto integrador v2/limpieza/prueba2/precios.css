@@ -1,6 +1,6 @@
 /* Precios.css */
 
-/* Estilo para el body con una imagen de fondo y centrar contenido */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header con transparencia y borde */
+
 header {
     background-color: rgba(10, 58, 187, 0.8); 
     color: white;
@@ -43,7 +43,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Sección de Precios */
+
 #precios {
     padding: 50px 0;
     text-align: center;
@@ -55,7 +55,7 @@ header nav ul li a:hover {
     color: #2936c1;
 }
 
-/* Tabla de precios */
+
 .precios-table {
     width: 80%;
     margin: 0 auto;
@@ -79,7 +79,7 @@ header nav ul li a:hover {
     color: #333;
 }
 
-/* Estilo para el footer */
+
 footer {
     background-color: rgba(10, 58, 187, 0.8);
     color: white;

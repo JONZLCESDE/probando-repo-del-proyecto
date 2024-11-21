@@ -1,5 +1,5 @@
 //document.addEventListener("DOMContentLoaded", function() {
-    // Ejemplo de funcionalidad: mostrar una alerta al cargar la página de servicios
+    
    // alert("Bienvenido a la página de Servicios");
 
     // Funcionalidad adicional: mostrar detalles al hacer clic en un servicio específico

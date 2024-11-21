@@ -143,3 +143,9 @@ document.addEventListener('DOMContentLoaded', function () {
         mensajePisos.style.display = 'none';
     });
 });
+
+
+document.getElementById('solicitud-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    window.location.href = 'confirmacion.html'; 
+});

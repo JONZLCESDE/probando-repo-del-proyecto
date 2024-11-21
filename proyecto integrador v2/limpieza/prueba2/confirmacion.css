@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    display: flex; 
+    background-image: url(imagen\ de\ confirmacion\ html.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #294fe9;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #065aba;
+    padding: 10px 20px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+a:hover {
+    background-color: #065aba;
+    color: white;
+}

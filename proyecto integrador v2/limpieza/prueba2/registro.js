@@ -1,11 +1,11 @@
-// Esperamos que el DOM se cargue completamente
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Seleccionamos los botones
+    
     const aceptarButtons = document.querySelectorAll('.btn-aceptar');
     const rechazarButtons = document.querySelectorAll('.btn-rechazar');
     const esperaButtons = document.querySelectorAll('.btn-espera');
 
-    // Asignamos un evento a cada botón
+    
     aceptarButtons.forEach(button => {
         button.addEventListener('click', function() {
             alert('Servicio Aceptado');

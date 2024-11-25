@@ -99,7 +99,7 @@ header nav ul li a:hover {
 }
 
 .servicio h3 {
-    font-size: 1.7em; /* Aumento del tamaño del título */
+    font-size: 1.7em; 
     margin: 0;
     color: #065aba;
 }
@@ -115,7 +115,7 @@ header nav ul li a:hover {
 }
 
 .servicio p {
-    font-size: 1.2em; /* Aumento del tamaño del texto */
+    font-size: 1.2em; 
     margin-top: 10px;
     color: #555;
 }
